@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dfascf",
+  "version": "${version}",
+  "name": "Dispenser Flint and Steel Crash Fix",
+  "description": "Fixes the crash that occurs when a dispenser tries to put fire on the side of an obsidian block",
+  "authors": [
+    "alkyaLy"
+  ],
+  "contact": {
+    "sources": "https://github.com/alkyaly/DFASCF",
+    "issues": "https://github.com/alkyaly/DFASCF/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "DFASCF.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.16.2"
+  }
+}
